@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0;
+}
+body{
+    background-color: #faf8f0;
+    color: #988876;
+}
+
+.full-height-container{
+    min-height: 100vh;
+}
+
+.grid-container{
+    width: 488px;
+    height: 490px;
+    background-color: #9c8978;
+}
+
+.square{
+    font-size: 48px !important;
+}
+.number-slot{
+    width: 140px;
+    height: 140px;
+    background-color: #eee4da;
+    transition: .2s ease;
+}
+
+.versus, .score, .player_name{
+    margin-bottom: 0;
+}
+
+.player-score-container{
+    width: 488px;
+}
+.player-score{
+    width: 74px;
+    height: 52px;
+    background-color: #eae7d9;
+}
+
+.number-container{
+    width: 488px;
+    height: 80px;
+    background-color: #eae7d9;
+}
+
+.number-available{
+    width: 40px;
+    height: 40px;
+    background-color: #dbd5c6;
+    color: #988876;
+    
+}
+.p1{
+    background-color: #e36443;
+}
+
+.p2{
+    background-color: #469de4;
+}
+.p1, .p2{
+    color: white;
+    transition: .1s ease;
+}
+
+.p1:hover{
+    width: 46px;
+    height: 46px;
+}
+
+.p2:hover{
+    width: 46px;
+    height: 46px;
+}
+
+.dragging{
+    color: #9c8978;
+    background-color: #9c8978;
+}
+
+/* Estilo cuando arrastramos sobre una zona de soltar */
+.hovered {
+    width: 150px;
+    height: 150px;
+}
+
+.slot-filled-p1{
+    background-color: #e36443;
+    color: #ffffff;
+}
+.slot-filled-p2{
+    background-color: #469de4;
+    color: #ffffff;
+}
+.disabled{
+    color: #9c8978;
+    background-color: #9c8978;
+}
+.disabled_turn{
+    color: #9c8978;
+    background-color: #9c8978;
+}
+
+

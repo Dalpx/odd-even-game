@@ -1,0 +1,38 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0;
+}
+body{
+    background-color: #faf8f0;
+    color: #988876;
+}
+.full-height-container{
+    min-height: 100vh;
+}
+
+/* Estilos opcionales para centrar la tabla o añadir espaciado */
+body {
+    background-color: #f8f9fa; /* Un fondo claro para que resalte */
+}
+.container {
+    margin-top: 50px;
+}
+.table-custom-header th {
+    background-color: #007bff; /* Color de fondo para el encabezado */
+    color: white; /* Color de texto blanco para el encabezado */
+    text-align: center; /* Centrar texto en el encabezado */
+    vertical-align: middle; /* Alinear verticalmente el texto en el encabezado */
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.05); /* Un azul muy suave para filas impares */
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Un azul suave al pasar el ratón */
+}
+ /* Centrar el contenido de las celdas de datos */
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
